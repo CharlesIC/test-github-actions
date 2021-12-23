@@ -4,7 +4,4 @@ on: workflow_dispatch
 
 jobs:
   test:
-    name: Test
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo "Hello, world!"
+    uses: CharlesIC/test-github-actions/.github/workflows/action-workflow.yml@main
