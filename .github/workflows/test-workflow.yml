@@ -5,4 +5,4 @@ on: workflow_dispatch
 jobs:
   test:
     name: Use another workflow
-    uses: CharlesIC/test-github-actions/.github/workflows/actions/action-workflow.yml@main
+    uses: CharlesIC/test-github-actions/.github/workflows/action-workflow.yml@main
